@@ -15,7 +15,7 @@ MESAJ+="\n🧩 PLUGIN PAYLAŞIM; @SiriPlugin"
 MESAJ+="\n📲 WHATSAPP BOTU; @WhatsSiri"
 MESAJ+="\n "
 MESAJ+="\n❗İşlem Bitene Kadar Uygulamayı Terk Etmeyin❗"
-YARDIM="\n❗❗ %50, %70 VE %75'te Durakaladığında Y Yazıp Enter Yapınız ❗❗"
+YARDIM="\n❗❗ %50, %70 VE %75'te Durakladığında Y Yazıp Enter Yapınız ❗❗"
 YARDIM+="\n "
 BOSLUK="\n "
 echo -e $SIRI
@@ -56,7 +56,7 @@ echo -e $BOSLUK
 echo "⌛ SİRİYİ İNDİRİYORUM ⌛"
 echo "⌛ I DOWNLOAD THE SIRI ⌛"
 echo -e $BOSLUK
-git clone -b siri_installer https://github.com/SiriUserBot/SiriUserBot
+git clone -b siri_installer https://github.com/erdembey1/siriinstaller
 clear
 echo -e $SIRI
 echo -e $BOSLUK
@@ -65,7 +65,7 @@ echo -e $BOSLUK
 echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd SiriUserBot
+cd siriinstaller
 pip install wheel
 pip install -r requirements.txt
 python -m siri_installer
